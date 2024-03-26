@@ -1,0 +1,28 @@
+
+*{
+  text-align: center;
+  background-color: aqua;
+}
+
+h2[class="left-align"]{
+  text-align: left;
+
+}
+
+ul {
+  list-style: none;
+  padding: 10;
+  margin: 10;
+  overflow: hidden; /* Clear floats */
+}
+
+li[class="right-align"] {
+
+  float: right;
+}
+
+
+li[class="left-align"]{
+  display: block;
+  text-align: left;
+}
